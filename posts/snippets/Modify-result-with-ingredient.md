@@ -9,7 +9,7 @@ tag:
 
 # 根據材料修改合成產物
 
-![images/snippets/Modify-result-with-ingredient-1.png](./images/snippets/Modify-result-with-ingredient-1.png)
+![images/snippets/Modify-result-with-ingredient-1.png](/images/snippets/Modify-result-with-ingredient-1.png)
 
 ```js
 ServerEvents.recipes((event) => {

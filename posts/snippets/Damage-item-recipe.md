@@ -9,7 +9,7 @@ tag:
 
 # 合成時消耗物品耐久
 
-![images/snippets/Damage-item-recipe-1.png](./images/snippets/Damage-item-recipe-1.png)
+![images/snippets/Damage-item-recipe-1.png](/images/snippets/Damage-item-recipe-1.png)
 
 ```js
 ServerEvents.recipes((event) => {
