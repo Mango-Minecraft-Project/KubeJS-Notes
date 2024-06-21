@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://Mango-Minecraft-Project.github.io/KubeJS-Notes/KubeJS-Notes/sitemap.xml
