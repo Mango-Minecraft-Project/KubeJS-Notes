@@ -30,8 +30,10 @@ export default hopeTheme({
     medias: {
       Discord: "https://discord.com/invite/SCAfRyAVnR",
       GitHub: "https://github.com/EvanHsieh0415/",
-      QQ: "https://example.com",
+      QQ: "https://qm.qq.com/q/sVBjgOfvtm",
     },
+    name: "芒果凍布丁",
+    avatar: "https://avatars.githubusercontent.com/u/74277414",
   },
 
   metaLocales: {
