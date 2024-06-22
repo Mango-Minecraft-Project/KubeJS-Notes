@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/KubeJS-Notes/",
+  base: "/",
   port: 9090,
   // open: true,
 
