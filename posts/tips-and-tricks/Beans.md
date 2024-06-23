@@ -4,6 +4,7 @@ category:
   - 技巧
 tag:
   - Beans
+star: true
 ---
 
 # *Beans*

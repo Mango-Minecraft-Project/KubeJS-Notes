@@ -4,6 +4,7 @@ category:
   - 程式碼片段
 tag:
   - 伺服器腳本｜server side
+star: true
 ---
 
 # 玩家在芒草蹲下後隱身

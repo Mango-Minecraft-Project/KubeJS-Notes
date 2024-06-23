@@ -4,6 +4,8 @@ category:
   - 程式碼片段
 tag:
   - 伺服器腳本｜server side
+sticky: true
+star: true
 ---
 
 # 物品實體名稱高亮顯示

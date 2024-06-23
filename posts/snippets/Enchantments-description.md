@@ -1,12 +1,13 @@
 ---
-isOriginal: true
 author:
   - name: 芒果凍布丁
   - name: KL_jiana
+isOriginal: true
 category:
   - 程式碼片段
 tag:
   - 客戶端腳本｜client side
+star: true
 ---
 
 # 附魔描述

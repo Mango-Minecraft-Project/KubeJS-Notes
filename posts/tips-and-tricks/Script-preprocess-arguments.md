@@ -1,8 +1,8 @@
 ---
 isOriginal: true
-star: true
 category:
   - 技巧
+star: true
 ---
 
 # 腳本預處理參數 [KubeJS 6+]

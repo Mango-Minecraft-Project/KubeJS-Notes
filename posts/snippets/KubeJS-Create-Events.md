@@ -9,6 +9,7 @@ category:
 tag:
   - 伺服器腳本｜server side
   - 程式碼範例｜code example
+star: true
 ---
 
 # KubeJS Create 所提供的 `CreateEvents`

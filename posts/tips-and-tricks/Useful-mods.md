@@ -1,10 +1,11 @@
 ---
 isOriginal: true
-star: true
 category:
   - 技巧
 tag:
   - 模組｜mods
+sticky: true
+star: true
 ---
 
 # 實用模組（非KubeJS Addon為主）

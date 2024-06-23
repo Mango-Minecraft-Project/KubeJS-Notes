@@ -5,6 +5,7 @@ icon: home
 title: 首頁
 heroImage: https://raw.githubusercontent.com/KubeJS-Mods/KubeJS/2001/common/src/main/resources/kubejs_logo.png
 heroText: 芒果的 KubeJS 筆記
+bgImage: https://png.pngtree.com/thumb_back/fw800/background/20230721/pngtree-d-rendering-of-a-creative-and-illuminated-purple-coding-background-with-image_3720592.jpg
 tagline: 一些關於 Minecraft 的 KubeJS 筆記
 heroFullScreen: true
 projects:
