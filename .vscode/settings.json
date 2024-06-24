@@ -1,4 +1,9 @@
 {
   "files.autoSave": "onWindowChange",
-  "typescript.suggest.autoImports": true
+  "typescript.suggest.autoImports": true,
+  "cSpell.words": [
+    "darkmode",
+    "fontawesome",
+    "zhtw"
+  ]
 }

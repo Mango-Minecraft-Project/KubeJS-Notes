@@ -7,6 +7,19 @@ export default defineUserConfig({
   port: 9090,
   // open: true,
 
+  locales: {
+    "/zh-tw/": {
+      lang: "zh-TW",
+      title: "芒果的 KubeJS 筆記",
+      description: "一些關於 Minecraft 的 KubeJS 筆記",
+    },
+    "/en-us/": {
+      lang: "en-US",
+      title: "Mango's KubeJS Notes",
+      description: "Some notes about KubeJS in Minecraft",
+    },
+  },
+
   lang: "zh-TW",
   title: "芒果的 KubeJS 筆記",
   description: "一些關於 Minecraft 的 KubeJS 筆記",

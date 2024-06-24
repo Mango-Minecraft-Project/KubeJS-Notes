@@ -1,8 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { Page } from "vuepress";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { enNavbar, zhtwNavbar } from "./navbar/index.js";
+import { enSidebar, zhtwSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://Mango-Minecraft-Project.github.io/KubeJS-Notes",
@@ -13,31 +13,52 @@ export default hopeTheme({
   contributors: true,
   lastUpdated: true,
   darkmode: "enable",
-
-  navbar,
-  sidebar,
-  footer: "預設頁尾",
-  displayFooter: false,
   favicon: "https://raw.githubusercontent.com/KubeJS-Mods/KubeJS/2001/common/src/main/resources/kubejs_logo.png",
 
-  author: {
-    name: "芒果凍布丁",
-    url: "https://github.com/EvanHsieh0415",
-  },
+  locales: {
+    "/zh-tw/": {
+      navbar: zhtwNavbar,
+      sidebar: zhtwSidebar,
 
-  blog: {
-    description: "一個 KubeJS 開發者",
-    medias: {
-      Discord: "https://discord.com/invite/SCAfRyAVnR",
-      GitHub: "https://github.com/EvanHsieh0415/",
-      QQ: "https://qm.qq.com/q/sVBjgOfvtm",
+      author: {
+        name: "芒果凍布丁",
+        url: "https://github.com/EvanHsieh0415",
+      },
+
+      blog: {
+        description: "一個 KubeJS 開發者",
+        medias: {
+          Discord: "https://discord.com/invite/SCAfRyAVnR",
+          GitHub: "https://github.com/EvanHsieh0415/",
+          QQ: "https://qm.qq.com/q/sVBjgOfvtm",
+        },
+        name: "芒果凍布丁",
+        avatar: "https://avatars.githubusercontent.com/u/74277414",
+      },
+
+      metaLocales: {
+        editLink: "在 GitHub 上編輯此頁面",
+      },
     },
-    name: "芒果凍布丁",
-    avatar: "https://avatars.githubusercontent.com/u/74277414",
-  },
+    "/en-us/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
 
-  metaLocales: {
-    editLink: "在 GitHub 上編輯此頁面",
+      author: {
+        name: "Mango Jelly Pudding",
+        url: "https://github.com/EvanHsieh0415",
+      },
+
+      blog: {
+        description: "A KubeJS Developer",
+        medias: {
+          Discord: "https://discord.com/invite/SCAfRyAVnR",
+          GitHub: "https://github.com/EvanHsieh0415/",
+        },
+        name: "Mango Jelly Pudding",
+        avatar: "https://avatars.githubusercontent.com/u/74277414",
+      },
+    },
   },
 
   // enable it to preview all changes in time
@@ -46,11 +67,17 @@ export default hopeTheme({
   plugins: {
     blog: {
       filter: ({ frontmatter, filePathRelative, lang, path }: Page) =>
-        !!(
-          frontmatter.article ??
-          (!!filePathRelative && !frontmatter.home && !frontmatter.exceptBar)
-        ),
+        !!(frontmatter.article ?? (!!filePathRelative && !frontmatter.home && !frontmatter.exceptBar)),
       excerptLength: 100,
+    },
+
+    redirect: {
+      switchLocale: "modal",
+      defaultBehavior: "homepage",
+      defaultLocale: "/en-us/",
+      config: {
+        "/": "/en-us/",
+      }
     },
 
     components: {
