@@ -1,5 +1,4 @@
 ---
-isOriginal: true
 category:
   - Tips and Tricks
 tag:
