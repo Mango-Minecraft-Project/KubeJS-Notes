@@ -8,12 +8,12 @@ export default hopeTheme({
   hostname: "https://Mango-Minecraft-Project.github.io/KubeJS-Notes",
 
   iconAssets: "fontawesome-with-brands",
-  logo: "https://raw.githubusercontent.com/KubeJS-Mods/KubeJS/2001/common/src/main/resources/kubejs_logo.png",
+  logo: "/logo.png",
   repo: "Mango-Minecraft-Project/KubeJS-Notes",
   contributors: true,
   lastUpdated: true,
   darkmode: "enable",
-  favicon: "https://raw.githubusercontent.com/KubeJS-Mods/KubeJS/2001/common/src/main/resources/kubejs_logo.png",
+  favicon: "/logo.png",
 
   locales: {
     "/zh-tw/": {
@@ -81,7 +81,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "VidStack"],
     },
 
     // These features are enabled for demo, only preserve features you need here

@@ -6,7 +6,9 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 客戶端腳本｜client side
+  - 客戶端腳本
+  - 物品附魔
+  - 物品提示
 star: true
 ---
 

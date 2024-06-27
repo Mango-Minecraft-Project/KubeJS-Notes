@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-  port: 9090,
+  port: 9999,
   // open: true,
 
   locales: {
@@ -27,7 +27,7 @@ export default defineUserConfig({
   theme,
 
   head: [
-    ["meta", { property: "og:image", content: "https://raw.githubusercontent.com/KubeJS-Mods/KubeJS/2001/common/src/main/resources/kubejs_logo.png" }],
+    ["meta", { property: "og:image", content: "/logo.png" }],
     ["meta", { property: "og:image:type", content: "image/png" }],
     ["meta", { property: "og:image:width", content: "128" }],
     ["meta", { property: "og:image:height", content: "128" }],

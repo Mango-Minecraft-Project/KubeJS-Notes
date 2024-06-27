@@ -4,6 +4,7 @@ category:
   - 技巧
 tag:
   - VSCode
+  - 自動補全
 ---
 
 # 自製 KubeJS 用 VSCode Code Snippet

@@ -3,14 +3,15 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
-  - 客戶端腳本｜client side
-  - 套裝效果｜armor set
+  - 伺服器腳本
+  - 客戶端腳本
+  - 套裝效果
+  - 物品提示
 ---
 
-# 套裝效果 + tooltip提示
+# 套裝效果 + Tooltip提示
 
-使用nbt達成tooltip提示
+使用 NBT 達成 Tooltip 提示
 
 ## 伺服器腳本
 

@@ -5,6 +5,7 @@ category:
 tag:
   - Beans
 star: true
+sticky: true
 ---
 
 # *Beans*

@@ -3,7 +3,7 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
+  - 伺服器腳本
 ---
 
 # 在草地上跳躍有機率將草地踩成泥土

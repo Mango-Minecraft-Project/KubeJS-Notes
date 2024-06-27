@@ -3,6 +3,7 @@ isOriginal: true
 category:
   - Tips and Tricks
 star: true
+sticky: true
 ---
 
 # Script Preprocess Arguments [KubeJS 6+]

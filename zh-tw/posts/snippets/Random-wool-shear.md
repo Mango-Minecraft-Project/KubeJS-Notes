@@ -3,8 +3,8 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
-  - 啟動腳本｜startup side
+  - 伺服器腳本
+  - 啟動腳本
 ---
 
 # 隨機羊毛剪刀

@@ -3,7 +3,8 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 啟動腳本｜startup side
+  - 啟動腳本
+  - 物品 Builder
 ---
 
 # 修改物品的 Builder

@@ -3,7 +3,8 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
+  - 伺服器腳本
+  - 世界種子
 ---
 
 <!-- #region world-seed -->

@@ -7,8 +7,10 @@ author:
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
-  - 程式碼範例｜code example
+  - 伺服器腳本
+  - 程式碼範例
+  - KubeJS Create
+  - 動力機械
 star: true
 ---
 

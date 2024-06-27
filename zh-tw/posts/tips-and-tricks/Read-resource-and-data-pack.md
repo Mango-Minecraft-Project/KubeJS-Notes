@@ -5,10 +5,11 @@ author:
 category:
   - 技巧
 tag:
-  - 啟動腳本｜startup side
-  - 資料包｜data pack
-  - 資源包｜resource pack
+  - 啟動腳本
+  - 資料包
+  - 資源包
 star: true
+sticky: true
 ---
 
 # 讀取任意模組的 Json 檔案

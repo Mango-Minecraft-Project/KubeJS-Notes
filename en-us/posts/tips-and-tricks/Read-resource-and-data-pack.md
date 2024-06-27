@@ -9,6 +9,7 @@ tag:
   - Data Pack
   - Resource Pack
 star: true
+sticky: true
 ---
 
 # Read JSON files from any module

@@ -10,7 +10,7 @@ tag:
 # Using World Seed in Recipe
 
 :::: note Summary
-<!-- @include: Get-world-seed.md -->
+<!-- @include: Get-World-Seed.md -->
 ::::
 
 ```js

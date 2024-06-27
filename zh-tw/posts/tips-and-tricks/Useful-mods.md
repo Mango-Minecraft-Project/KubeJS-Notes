@@ -3,7 +3,7 @@ isOriginal: true
 category:
   - 技巧
 tag:
-  - 模組｜mods
+  - 模組
 sticky: true
 star: true
 ---

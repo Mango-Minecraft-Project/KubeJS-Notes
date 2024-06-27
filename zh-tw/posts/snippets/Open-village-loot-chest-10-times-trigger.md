@@ -3,10 +3,10 @@ isOriginal: true
 category:
   - 程式碼片段 
 tag:
-  - 伺服器腳本｜server side
+  - 伺服器腳本
 ---
 
-# 玩家每開啟10次村莊中的戰利品箱後觸發
+# 玩家每開啟 10 次村莊中的戰利品箱後觸發
 
 ```js
 const dataKey = "villageChestsOpened";

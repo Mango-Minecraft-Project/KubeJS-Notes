@@ -3,8 +3,8 @@ isOriginal: true
 category:
   - 程式碼片段
 tag:
-  - 伺服器腳本｜server side
-  - 配方｜recipe
+  - 伺服器腳本
+  - 配方
 ---
 
 # 根據材料修改合成產物

@@ -4,12 +4,12 @@ category:
   - 技巧
 tag:
   - Github
-  - 同步｜sync
+  - 同步
 ---
 
 # 將腳本自動同步到 Github
 
-以下步驟皆以Prism Launcher為基礎
+以下步驟皆以 Prism Launcher 為基礎
 
 1. 備份 `.minecraft`；
 2. 清空原有的 `.minecraft`；
