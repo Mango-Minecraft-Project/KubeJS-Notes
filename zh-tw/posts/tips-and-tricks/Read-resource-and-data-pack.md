@@ -3,7 +3,7 @@ author:
   - name: pietro-lopes
     url: https://github.com/pietro-lopes
 category:
-  - 技巧
+  - 小技巧
 tag:
   - 啟動腳本
   - 資料包

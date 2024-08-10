@@ -1,7 +1,7 @@
 ---
 title: KubeJS
 icon: book
-exceptBar: true
+index: false
 ---
 
 # Index

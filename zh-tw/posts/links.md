@@ -50,9 +50,9 @@ star: true
   - JSDoc：[https://jsdoc.app/](https://jsdoc.app/)
 - 工具
   - VSCode（Visual Studio Code）：[https://code.visualstudio.com/](https://code.visualstudio.com/)
-  - VSCode 擴展
-    - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-    - [Easy CodeSnap](https://marketplace.visualstudio.com/items?itemName=ArthurLobo.easy-codesnap)
-    - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - VSCode 延伸模組
+      - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+      - [Easy CodeSnap](https://marketplace.visualstudio.com/items?itemName=ArthurLobo.easy-codesnap)
+      - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - 模組
     - ProbeJS：[https://www.mcmod.cn/class/6486.html](https://www.mcmod.cn/class/6486.html)

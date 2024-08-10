@@ -2,7 +2,7 @@
 icon: pen-to-square
 category:
   - Notes
-exceptBar: true
+index: false
 ---
 
 # Notes

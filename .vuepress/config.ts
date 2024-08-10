@@ -1,10 +1,13 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 
 import theme from "./theme.js";
 
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   base: "/",
-  port: 9999,
+  port: 8080,
   // open: true,
 
   locales: {
@@ -32,5 +35,7 @@ export default defineUserConfig({
     ["meta", { property: "og:image:width", content: "128" }],
     ["meta", { property: "og:image:height", content: "128" }],
     ["meta", { property: "theme-color", content: "#422066" }],
-  ]
+  ],
+
+  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 });

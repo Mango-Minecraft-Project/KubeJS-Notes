@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 技巧
+  - 小技巧
 tag:
   - VSCode
   - 自動補全

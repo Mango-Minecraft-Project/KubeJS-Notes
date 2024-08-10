@@ -2,7 +2,7 @@
 icon: pen-to-square
 category:
   - 筆記
-exceptBar: true
+index: false
 ---
 
 # 筆記

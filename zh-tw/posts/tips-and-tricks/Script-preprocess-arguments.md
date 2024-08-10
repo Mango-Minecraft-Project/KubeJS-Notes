@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 技巧
+  - 小技巧
 tags:
   - 腳本參數
 star: true

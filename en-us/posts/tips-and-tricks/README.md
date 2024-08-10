@@ -2,7 +2,7 @@
 icon: pen-to-square
 category:
   - Tips and Tricks
-exceptBar: true
+index: false
 ---
 
 # Tips and Tricks

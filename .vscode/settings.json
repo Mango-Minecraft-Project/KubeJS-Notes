@@ -1,5 +1,5 @@
 {
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "off",
   "typescript.suggest.autoImports": true,
   "cSpell.words": [
     "darkmode",

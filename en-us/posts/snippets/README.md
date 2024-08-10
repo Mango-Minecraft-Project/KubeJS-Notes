@@ -2,7 +2,7 @@
 icon: pen-to-square
 category:
   - Code Snippets
-exceptBar: true
+index: false
 ---
 
 # Script Examples

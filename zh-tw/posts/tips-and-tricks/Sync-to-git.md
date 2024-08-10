@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 技巧
+  - 小技巧
 tag:
   - Github
   - 同步
