@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { Page } from "vuepress";
 
 import { enNavbar, zhtwNavbar } from "./navbar/index.js";
 import { enSidebar, zhtwSidebar } from "./sidebar/index.js";
@@ -64,7 +65,16 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
-    blog: true,
+    blog: {
+      filter: ({ frontmatter, filePathRelative, lang, path }: Page) =>
+        !!(
+          frontmatter.article ??
+          (!!filePathRelative &&
+            !frontmatter.home &&
+            frontmatter.index !== false)
+        ),
+      excerptLength: 100,
+    },
 
     redirect: {
       switchLocale: "modal",
