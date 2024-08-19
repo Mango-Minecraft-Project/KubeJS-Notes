@@ -3,8 +3,8 @@ isOriginal: true
 category:
   - 筆記
 tag:
-  - 玩家事件｜PlayerEvents
-  - 聊天｜chat
+  - PlayerEvents
+  - 聊天
 ---
 
 # `PlayerEvents.chat` 與 `PlayerEvents.decorateChat` 的差異

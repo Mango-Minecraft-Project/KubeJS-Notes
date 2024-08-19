@@ -3,7 +3,7 @@ isOriginal: true
 category:
   - 筆記
 tag:
-  - 傷害來源｜DamageSource
+  - Damage Source
 ---
 
 # DamageSource 中 `immediate` 與 `actual` 的差異
