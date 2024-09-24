@@ -12,20 +12,20 @@ projects:
   - icon: list-ol
     name: Related Links
     desc: Some links related to KubeJS
-    link: "posts/links"
+    link: "links"
 
   - icon: book
     name: Notes
     desc: Recording some new discoveries
-    link: "posts/notes/"
+    link: "notes/"
 
   - icon: book
     name: Code Snippets
     desc: Some code snippets for KubeJS
-    link: "posts/snippets/"
+    link: "snippets/"
 
   - icon: book
     name: Tips and Tricks
     desc: Interesting KubeJS tips and tricks
-    link: "posts/tips-and-tricks/"
+    link: "tips-and-tricks/"
 ---

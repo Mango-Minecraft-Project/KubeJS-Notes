@@ -5,21 +5,21 @@ export default navbar([
   {
     text: "相關連結",
     icon: "list-ol",
-    link: "/zh-tw/posts/links",
+    link: "/zh-tw/links",
   },
   {
     text: "筆記",
     icon: "book",
-    link: "/zh-tw/posts/notes/",
+    link: "/zh-tw/notes/",
   },
   {
     text: "程式碼片段",
     icon: "book",
-    link: "/zh-tw/posts/snippets/",
+    link: "/zh-tw/snippets/",
   },
   {
     text: "小技巧",
     icon: "book",
-    link: "/zh-tw/posts/tips-and-tricks/",
+    link: "/zh-tw/tips-and-tricks/",
   },
 ]);

@@ -12,20 +12,20 @@ projects:
   - icon: list-ol
     name: 相關連結
     desc: 關於 KubeJS 的一些連結
-    link: "posts/links"
+    link: "links"
 
   - icon: book
     name: 筆記
     desc: 紀錄一些新發現的事物
-    link: "posts/notes/"
+    link: "notes/"
 
   - icon: book
     name: 程式碼片段
     desc: 一些可以用於 KubeJS 的程式碼片段
-    link: "posts/snippets/"
+    link: "snippets/"
 
   - icon: book
     name: 小技巧
     desc: 有趣的 KubeJS 小技巧
-    link: "posts/tips-and-tricks/"
+    link: "tips-and-tricks/"
 ---
