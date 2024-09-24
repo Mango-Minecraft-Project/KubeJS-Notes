@@ -5,21 +5,21 @@ export default navbar([
   {
     text: "Related Links",
     icon: "list-ol",
-    link: "/en-us/posts/links",
+    link: "/en-us/links",
   },
   {
     text: "Notes",
     icon: "book",
-    link: "/en-us/posts/notes/",
+    link: "/en-us/notes/",
   },
   {
     text: "Code Snippets",
     icon: "book",
-    link: "/en-us/posts/snippets/",
+    link: "/en-us/snippets/",
   },
   {
     text: "Tips and Tricks",
     icon: "book",
-    link: "/en-us/posts/tips-and-tricks/",
+    link: "/en-us/tips-and-tricks/",
   },
 ]);

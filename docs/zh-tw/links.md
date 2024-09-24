@@ -33,7 +33,7 @@ star: true
   - KubeJS 5：[https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn)
   - KubeJS 6+：[https://wudji.gitbook.io/xplus-kubejs-tutorial-v2-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn)
 - 芒果凍布丁
-  <!-- - 筆記（Github Pages）：[https://evanhsieh0415.github.io/Blog/posts/kubejs/](https://evanhsieh0415.github.io/Blog/posts/kubejs/) -->
+  <!-- - 筆記（Github Pages）：[https://evanhsieh0415.github.io/Blog/kubejs/](https://evanhsieh0415.github.io/Blog/kubejs/) -->
   - 筆記（CloudFlare Pages）：[https://kubejs-notes.pages.dev/](https://kubejs-notes.pages.dev/)
   <!-- - 筆記（HackMD）：[https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes](https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes) -->
   - 程式碼儲存庫：[https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts](https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts)

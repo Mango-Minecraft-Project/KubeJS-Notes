@@ -1,14 +1,15 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - 程式碼片段
 tag:
-  - Server Side
+  - 伺服器腳本
+  - 向量
 ---
 
-# Fishing Rod Hook
+# 魚竿鉤子
 
-<VidStack src="/posts/snippets/Fishing-rod-hook/0.mp4"/>
+<VidStack src="/snippets/Fishing-rod-hook/0.mp4"/>
 
 ```js
 ItemEvents.rightClicked("fishing_rod", (event) => {
@@ -21,4 +22,3 @@ ItemEvents.rightClicked("fishing_rod", (event) => {
   }
 });
 ```
-

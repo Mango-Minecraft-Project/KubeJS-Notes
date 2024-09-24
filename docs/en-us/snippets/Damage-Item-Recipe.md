@@ -9,7 +9,7 @@ tag:
 
 # Consuming Item Durability in Crafting
 
-![posts/snippets/Damage-Item-Recipe/0.png](/posts/snippets/Damage-Item-Recipe/0.png)
+![snippets/Damage-Item-Recipe/0.png](/snippets/Damage-Item-Recipe/0.png)
 
 ```js
 ServerEvents.recipes((event) => {

@@ -8,7 +8,7 @@ tag:
 
 # Reality Ender Pearl
 
-<VidStack src="/posts/snippets/Reality-ender-pearl/0.mp4"/>
+<VidStack src="/snippets/Reality-ender-pearl/0.mp4"/>
 
 ```js
 ItemEvents.rightClicked("ender_pearl", (event) => {

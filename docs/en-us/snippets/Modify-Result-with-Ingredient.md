@@ -1,22 +1,22 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - Code Snippets
 tag:
-  - 伺服器腳本
-  - 配方
+  - Server Side
+  - Recipe
 ---
 
-# 根據材料修改合成產物
+# Modify Result with Ingredient
 
-![posts/snippets/Modify-Result-with-Ingredient/0.png](/posts/snippets/Modify-Result-with-Ingredient/0.png)
+![snippets/Modify-Result-with-Ingredient/0.png](/snippets/Modify-Result-with-Ingredient/0.png)
 
 ```js
 ServerEvents.recipes((event) => {
   const { kubejs } = event.recipes;
 
   kubejs
-    .shapeless(Item.of("wooden_axe").withName([Text.red("斧頭只會被清除附魔，不會被替換成木斧")]), [
+    .shapeless(Item.of("wooden_axe").withName([Text.red("Enchantments on axes will be removed, not replaced with wooden axes")]), [
       Ingredient.of("#minecraft:axes").itemIds.map((id) =>
         Item.of(id).enchant("flame", 2).weakNBT()
       ),
@@ -32,5 +32,5 @@ ServerEvents.recipes((event) => {
 ```
 
 :::info
-僅限 `kubejs:shaped` 和 `kubejs:shapeless` 配方可使用 `.modifyResult`
+`.modifyResult` can only be used with `kubejs:shaped` and `kubejs:shapeless` recipes.
 :::

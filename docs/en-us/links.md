@@ -33,7 +33,7 @@ star: true
   - KubeJS 5: [https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn)
   - KubeJS 6+: [https://wudji.gitbook.io/xplus-kubejs-tutorial-v2-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn) -->
 - Mango Jelly Pudding
-  <!-- - Notes (Github Pages): [https://evanhsieh0415.github.io/Blog/posts/kubejs/](https://evanhsieh0415.github.io/Blog/posts/kubejs/) -->
+  <!-- - Notes (Github Pages): [https://evanhsieh0415.github.io/Blog/kubejs/](https://evanhsieh0415.github.io/Blog/kubejs/) -->
   - Notes (CloudFlare Pages): [https://kubejs-notes.pages.dev/](https://kubejs-notes.pages.dev/)
   <!-- - Notes (HackMD): [https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes](https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes) -->
   - Code Repository: [https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts](https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts)

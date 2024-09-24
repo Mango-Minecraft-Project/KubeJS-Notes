@@ -2,8 +2,8 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar([
   "/zh-tw/",
-  "/zh-tw/posts/links",
-  "/zh-tw/posts/notes/",
-  "/zh-tw/posts/snippets/",
-  "/zh-tw/posts/tips-and-tricks/",
+  "/zh-tw/links",
+  "/zh-tw/notes/",
+  "/zh-tw/snippets/",
+  "/zh-tw/tips-and-tricks/",
 ]);
