@@ -19,11 +19,11 @@ star: true
 - Wiki：[https://kubejs.com/wiki/](https://kubejs.com/wiki/)
 - 舊版 Wiki
   - KubeJS 5：[https://wiki.latvian.dev/books/kubejs-legacy](https://wiki.latvian.dev/books/kubejs-legacy)
-  - KubeJS 6+：[https://wiki.latvian.dev/books/kubejs](https://wiki.latvian.dev/books/kubejs)
+  - KubeJS 6：[https://wiki.latvian.dev/books/kubejs](https://wiki.latvian.dev/books/kubejs)
 
 ## 第三方連結
 
-- MC百科：[https://www.mcmod.cn/class/2450.html](https://www.mcmod.cn/class/2450.html)
+- MC 百科：[https://www.mcmod.cn/class/2450.html](https://www.mcmod.cn/class/2450.html)
 - QQ 群
   - 日常交流群：665153457
   - 純討論群（禁止閒聊）：742635193
@@ -33,9 +33,7 @@ star: true
   - KubeJS 5：[https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn)
   - KubeJS 6+：[https://wudji.gitbook.io/xplus-kubejs-tutorial-v2-zh_cn](https://wudji.gitbook.io/xplus-kubejs-tutorial-v1-zh_cn)
 - 芒果凍布丁
-  <!-- - 筆記（Github Pages）：[https://evanhsieh0415.github.io/Blog/kubejs/](https://evanhsieh0415.github.io/Blog/kubejs/) -->
-  - 筆記（CloudFlare Pages）：[https://kubejs-notes.pages.dev/](https://kubejs-notes.pages.dev/)
-  <!-- - 筆記（HackMD）：[https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes](https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes) -->
+  - 筆記：[https://kubejs-notes.pages.dev/](https://kubejs-notes.pages.dev/)
   - 程式碼儲存庫：[https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts](https://github.com/Mango-Minecraft-Project/Mango-KubeJScripts)
 
 ---
