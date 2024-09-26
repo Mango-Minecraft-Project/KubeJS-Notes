@@ -8,7 +8,7 @@ tag:
 
 # 真實的終界珍珠
 
-<VidStack src="/snippets/Reality-ender-pearl/0.mp4"/>
+<VidStack src="/example-scripts/Reality-ender-pearl/0.mp4"/>
 
 ```js
 ItemEvents.rightClicked("ender_pearl", (event) => {

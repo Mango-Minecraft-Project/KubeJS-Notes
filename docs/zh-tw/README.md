@@ -22,7 +22,7 @@ projects:
   - icon: book
     name: 程式碼片段
     desc: 一些可以用於 KubeJS 的程式碼片段
-    link: "snippets/"
+    link: "example-scripts/"
 
   - icon: book
     name: 小技巧

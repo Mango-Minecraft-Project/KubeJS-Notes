@@ -15,7 +15,7 @@ export default navbar([
   {
     text: "Code Snippets",
     icon: "book",
-    link: "/en-us/snippets/",
+    link: "/en-us/example-scripts/",
   },
   {
     text: "Tips and Tricks",

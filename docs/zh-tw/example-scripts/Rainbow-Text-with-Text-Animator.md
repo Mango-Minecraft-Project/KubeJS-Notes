@@ -1,16 +1,18 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - 程式碼片段
 tag:
-  - Server Side
+  - 伺服器腳本
+  - Text Animator
+  - 文字顯示
 ---
 
-# Rainbow Text
+# 彩色字體
 
-Must be used with the [Text Animator](https://modrinth.com/mod/text-animator) module
+必須搭配 [Text Animator](https://modrinth.com/mod/text-animator) 模組使用
 
-<VidStack src="/snippets/Rainbow-Text-with-Text-Animator/0.mp4"/>
+<VidStack src="/example-scripts/Rainbow-Text-with-Text-Animator/0.mp4"/>
 
 ```js
 StartupEvents.registry("item", (event) => {
@@ -20,4 +22,3 @@ StartupEvents.registry("item", (event) => {
     .texture("minecraft:item/stick");
 });
 ```
-

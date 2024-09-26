@@ -15,7 +15,7 @@ export default navbar([
   {
     text: "程式碼片段",
     icon: "book",
-    link: "/zh-tw/snippets/",
+    link: "/zh-tw/example-scripts/",
   },
   {
     text: "小技巧",

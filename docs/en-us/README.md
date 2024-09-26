@@ -22,7 +22,7 @@ projects:
   - icon: book
     name: Code Snippets
     desc: Some code snippets for KubeJS
-    link: "snippets/"
+    link: "example-scripts/"
 
   - icon: book
     name: Tips and Tricks
