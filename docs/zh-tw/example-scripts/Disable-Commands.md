@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 指令
@@ -9,7 +9,7 @@ tag:
 
 # 禁止玩家使用特定指令
 
-*You Shall Not Pass!*
+_You Shall Not Pass!_
 
 ```js
 /**

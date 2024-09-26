@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
 sticky: true
@@ -29,7 +29,9 @@ ServerEvents.tick((event) => {
         " ",
         Text.translate(descriptionId).color(rarity.color),
         " ",
-        Text.gray(`(${Age == -32768 ? "∞" : ((6000 - Age) / 20).toFixed(1)}s left)`),
+        Text.gray(
+          `(${Age == -32768 ? "∞" : ((6000 - Age) / 20).toFixed(1)}s left)`
+        ),
       ];
       itemEntity.customNameVisible = true;
     }

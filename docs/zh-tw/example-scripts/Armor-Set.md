@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 客戶端腳本
@@ -9,7 +9,7 @@ tag:
   - 物品提示
 ---
 
-# 套裝效果 + Tooltip提示
+# 套裝效果 + Tooltip 提示
 
 使用 NBT 達成 Tooltip 提示
 
@@ -28,7 +28,9 @@ PlayerEvents.inventoryChanged((event) => {
   }
 
   for (let key of Object.keys(global.armorSets)) {
-    let setName = player.armorSlots.every((armor) => Utils.id(armor.id).path.startsWith(key))
+    let setName = player.armorSlots.every((armor) =>
+      Utils.id(armor.id).path.startsWith(key)
+    )
       ? key
       : "";
 
@@ -51,7 +53,10 @@ ItemEvents.tooltip((event) => {
       const { armor_set } = item.nbt;
 
       if (global.armorSets[armor_set] !== undefined) {
-        tooltip.add(1, ["Active Armor Set: ", Text.green(global.armorSets[armor_set])]);
+        tooltip.add(1, [
+          "Active Armor Set: ",
+          Text.green(global.armorSets[armor_set]),
+        ]);
       } else {
         tooltip.add(1, ["Active Armor Set: ", Text.red("No Active")]);
       }

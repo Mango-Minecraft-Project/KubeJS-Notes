@@ -5,7 +5,7 @@ author:
   - name: Prunoideae
     url: https://github.com/Prunoideae
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 程式碼範例
@@ -86,13 +86,14 @@ CreateEvents.spoutHandler((event) => {
     "kubejs:obsidian", // ID
     "minecraft:lava", // 目標方塊
     (block, fluid, simulate) => {
-    if (fluid.id === Fluid.water().id && fluid.amount >= 100) {
-      if (!simulate) {
-        block.set("minecraft:obsidian");
+      if (fluid.id === Fluid.water().id && fluid.amount >= 100) {
+        if (!simulate) {
+          block.set("minecraft:obsidian");
+        }
+        return 100;
       }
-      return 100;
+      return 0;
     }
-    return 0;
-  });
+  );
 });
 ```

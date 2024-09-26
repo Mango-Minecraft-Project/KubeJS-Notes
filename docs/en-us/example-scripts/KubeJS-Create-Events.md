@@ -5,7 +5,7 @@ author:
   - name: Prunoideae
     url: https://github.com/Prunoideae
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
   - code example
@@ -25,12 +25,12 @@ CreateEvents.boilerHeatHandler((event) => {
    * 1 : This block provides 1 unit of heat (1 green bar in the status, like fueled blaze burners)
    * 2 : This block provides 2 units of heat (like blaze-caked burners)
    * X : This block provides X units of heat, which is X green bars in the status
-   * 
+   *
    * Notice that the callback is invoked only when there's an update signal to the boilers.
    * Like a change of blockstate in adjacent blocks, breaking/placing, etc.
    */
 
-    /**
+  /**
    * Register a heater for a single block.
    * The parameter in the callback is a BlockContainerJS.
    */
@@ -81,7 +81,7 @@ CreateEvents.spoutHandler((event) => {
   //
   // Spout will call the handler with simulate = true for every tick, if the returned value > 0, then
   // the spout will start its animation, handler will be called with simulate = false again at the end of
-  // the animation. 
+  // the animation.
   //
   // The returned integer is how much fluid should this operation consume.
 
@@ -89,13 +89,14 @@ CreateEvents.spoutHandler((event) => {
     "kubejs:obsidian", // ID
     "minecraft:lava", // Target block
     (block, fluid, simulate) => {
-    if (fluid.id === Fluid.water().id && fluid.amount >= 100) {
-      if (!simulate) {
-        block.set("minecraft:obsidian");
+      if (fluid.id === Fluid.water().id && fluid.amount >= 100) {
+        if (!simulate) {
+          block.set("minecraft:obsidian");
+        }
+        return 100;
       }
-      return 100;
+      return 0;
     }
-    return 0;
-  });
+  );
 });
 ```

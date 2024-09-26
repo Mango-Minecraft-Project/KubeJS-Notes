@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 聊天訊息
@@ -17,7 +17,10 @@ const $maxDistance = 10;
  * @param {Internal.MinecraftServer_} server
  * @returns {Internal.Component}
  */
-const $textFactory = (sender, message, server) => [Text.green(`[${sender.username}] `), message];
+const $textFactory = (sender, message, server) => [
+  Text.green(`[${sender.username}] `),
+  message,
+];
 
 PlayerEvents.chat((event) => {
   const { player: sender, message, server } = event;

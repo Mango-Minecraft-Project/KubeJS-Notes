@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 配方
@@ -11,7 +11,9 @@ tag:
 # 在配方中使用世界種子
 
 :::: note 前情提要
+
 <!-- @include: Get-World-Seed.md -->
+
 ::::
 
 ```js

@@ -13,7 +13,7 @@ export default navbar([
     link: "/zh-tw/notes/",
   },
   {
-    text: "程式碼片段",
+    text: "範例腳本",
     icon: "book",
     link: "/zh-tw/example-scripts/",
   },

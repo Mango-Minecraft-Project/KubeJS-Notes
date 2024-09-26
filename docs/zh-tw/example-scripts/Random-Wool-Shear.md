@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 啟動腳本
@@ -41,7 +41,9 @@ ItemEvents.entityInteracted("kubejs:random_shear", (event) => {
 
   if (target.type === "minecraft:sheep" && target.readyForShearing()) {
     shear();
-    item.hurtAndBreak(1, entity, (entityx) => entityx.broadcastBreakEvent(hand));
+    item.hurtAndBreak(1, entity, (entityx) =>
+      entityx.broadcastBreakEvent(hand)
+    );
     event.cancel();
   }
 });

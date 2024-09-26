@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 物品實體
@@ -31,7 +31,9 @@ ServerEvents.tick((event) => {
         " ",
         Text.translate(descriptionId).color(rarity.color),
         " ",
-        Text.gray(`(${Age == -32768 ? "∞" : ((6000 - Age) / 20).toFixed(1)}s left)`),
+        Text.gray(
+          `(${Age == -32768 ? "∞" : ((6000 - Age) / 20).toFixed(1)}s left)`
+        ),
       ];
       itemEntity.customNameVisible = true;
     }

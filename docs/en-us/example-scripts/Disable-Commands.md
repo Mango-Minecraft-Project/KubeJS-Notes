@@ -1,14 +1,14 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
 ---
 
 # Disable Specific Commands for Players
 
-*You Shall Not Pass!*
+_You Shall Not Pass!_
 
 ```js
 /**

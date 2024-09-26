@@ -20,8 +20,8 @@ projects:
     link: "notes/"
 
   - icon: book
-    name: 程式碼片段
-    desc: 一些可以用於 KubeJS 的程式碼片段
+    name: 範例腳本
+    desc: KubeJS 的腳本範例
     link: "example-scripts/"
 
   - icon: book

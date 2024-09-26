@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
 ---
@@ -25,4 +25,3 @@ ItemEvents.modification((event) => {
 ## Source
 
 [https://www.curseforge.com/minecraft/mc-mods/alwayseat](https://www.curseforge.com/minecraft/mc-mods/alwayseat)
-

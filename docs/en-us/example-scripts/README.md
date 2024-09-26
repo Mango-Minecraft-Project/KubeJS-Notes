@@ -1,10 +1,10 @@
 ---
 icon: pen-to-square
 category:
-  - Code Snippets
+  - Example Scripts
 index: false
 ---
 
-# Script Examples
+# Example Scripts
 
 <Catalog/>

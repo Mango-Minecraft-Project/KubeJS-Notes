@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Startup Side
 ---

@@ -20,8 +20,8 @@ projects:
     link: "notes/"
 
   - icon: book
-    name: Code Snippets
-    desc: Some code snippets for KubeJS
+    name: Example Scripts
+    desc: Example scripts for KubeJS
     link: "example-scripts/"
 
   - icon: book

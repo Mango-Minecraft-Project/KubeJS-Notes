@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
   - Recipe
@@ -10,7 +10,9 @@ tag:
 # Using World Seed in Recipe
 
 :::: note Summary
+
 <!-- @include: Get-World-Seed.md -->
+
 ::::
 
 ```js
@@ -32,4 +34,3 @@ ServerEvents.recipes((event) => {
   // do_something(seed);
 });
 ```
-

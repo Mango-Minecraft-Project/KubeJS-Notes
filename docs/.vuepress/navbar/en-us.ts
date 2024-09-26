@@ -13,7 +13,7 @@ export default navbar([
     link: "/en-us/notes/",
   },
   {
-    text: "Code Snippets",
+    text: "Example Scripts",
     icon: "book",
     link: "/en-us/example-scripts/",
   },

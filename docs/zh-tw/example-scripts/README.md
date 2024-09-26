@@ -1,10 +1,10 @@
 ---
 icon: pen-to-square
 category:
-  - 程式碼片段
+  - 範例腳本
 index: false
 ---
 
-# 腳本範例
+# 範例腳本
 
 <Catalog/>

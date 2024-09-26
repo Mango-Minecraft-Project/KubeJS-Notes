@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Serve Side
   - Client Side
@@ -27,7 +27,9 @@ PlayerEvents.inventoryChanged((event) => {
   }
 
   for (let key of Object.keys(global.armorSets)) {
-    let setName = player.armorSlots.every((armor) => Utils.id(armor.id).path.startsWith(key))
+    let setName = player.armorSlots.every((armor) =>
+      Utils.id(armor.id).path.startsWith(key)
+    )
       ? key
       : "";
 
@@ -50,7 +52,10 @@ ItemEvents.tooltip((event) => {
       const { armor_set } = item.nbt;
 
       if (global.armorSets[armor_set] !== undefined) {
-        tooltip.add(1, ["Active Armor Set: ", Text.green(global.armorSets[armor_set])]);
+        tooltip.add(1, [
+          "Active Armor Set: ",
+          Text.green(global.armorSets[armor_set]),
+        ]);
       } else {
         tooltip.add(1, ["Active Armor Set: ", Text.red("No Active")]);
       }

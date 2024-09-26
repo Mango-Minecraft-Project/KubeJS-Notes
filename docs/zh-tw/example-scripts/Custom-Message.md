@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - 程式碼片段
+  - 範例腳本
 tag:
   - 伺服器腳本
   - 訊息
@@ -12,7 +12,13 @@ tag:
 ```js
 PlayerEvents.chat((event) => {
   let { player, message, server } = event;
-  server.tell([Text.yellow(player.displayName), " ", Text.gray("»"), " ", Text.white(message)]);
+  server.tell([
+    Text.yellow(player.displayName),
+    " ",
+    Text.gray("»"),
+    " ",
+    Text.white(message),
+  ]);
   event.cancel();
 });
 ```

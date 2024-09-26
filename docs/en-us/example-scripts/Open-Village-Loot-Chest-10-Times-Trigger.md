@@ -1,7 +1,7 @@
 ---
 isOriginal: true
 category:
-  - Code Snippets
+  - Example Scripts
 tag:
   - Server Side
 ---
@@ -16,7 +16,10 @@ BlockEvents.rightClicked("chest", (event) => {
   const { player, block } = event;
 
   if (block.entityData.getString("LootTable").includes("chests/village/")) {
-    player.persistentData.putLong(dataKey, player.persistentData.getLong(dataKey) + 1);
+    player.persistentData.putLong(
+      dataKey,
+      player.persistentData.getLong(dataKey) + 1
+    );
     player.tell("You've opened a village chest!");
 
     if (player.persistentData.getLong(dataKey) >= maxOpenTimes) {
