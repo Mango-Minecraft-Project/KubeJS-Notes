@@ -4,6 +4,6 @@ export default sidebar([
   "/zh-tw/",
   "/zh-tw/links",
   "/zh-tw/notes/",
-  "/zh-tw/snippets/",
+  "/zh-tw/example-scripts/",
   "/zh-tw/tips-and-tricks/",
 ]);
