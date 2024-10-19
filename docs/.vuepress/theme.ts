@@ -89,16 +89,23 @@ export default hopeTheme({
       components: ["Badge", "VPCard", "VidStack"],
     },
 
+    markdownTab: {
+      codeTabs: true,
+      tabs: true,
+    },
+    markdownImage: {
+      figure: true,
+      lazyload: true,
+      size: true,
+      mark: true,
+    },
+
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
       mark: true,
       plantuml: true,
@@ -118,7 +125,6 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       tasklist: true,
       vPre: true,
     },
