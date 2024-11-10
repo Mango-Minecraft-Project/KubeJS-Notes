@@ -22,4 +22,9 @@ export default navbar([
     icon: "book",
     link: "/zh-tw/tips-and-tricks/",
   },
+  {
+    text: "芒果版 KubeJS Wiki",
+    icon: "fa-brands fa-wikipedia-w",
+    link: "/zh-tw/wiki/",
+  }
 ]);
