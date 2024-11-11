@@ -1,0 +1,24 @@
+# Format Example
+# - name: AnimationJS
+#   author:
+#     - Liopyu
+#   links:
+#     curseforge: https://www.curseforge.com/minecraft/mc-mods/animationjs
+#     modrinth: https://modrinth.com/mod/animationjs
+#     github: https://github.com/liopyu/AnimationJS
+
+- name: LootJS
+  author:
+    - Lytho
+  links:
+    curseforge: lootjs
+    modrinth: lootjs
+    github: AlmostReliable/lootjs
+
+- name: ProbeJS
+  author:
+    - Prunoideae
+  links:
+    curseforge: probejs
+    modrinth: probejs
+    github: Prunoideae/ProbeJS

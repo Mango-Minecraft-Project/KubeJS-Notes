@@ -1,5 +1,6 @@
 ---
 title: ServerEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>

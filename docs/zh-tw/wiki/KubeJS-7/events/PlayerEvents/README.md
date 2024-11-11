@@ -1,5 +1,6 @@
 ---
 title: PlayerEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>

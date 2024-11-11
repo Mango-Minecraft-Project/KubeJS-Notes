@@ -5,7 +5,7 @@ from pprint import pprint
 
 CWD = Path.cwd()
 
-created_path = CWD / "docs/zh-tw/wiki/KubeJS-7/Events"
+created_path = CWD / "docs/zh-tw/wiki/KubeJS-7/events"
 created_path.mkdir(parents=True, exist_ok=True)
 
 events = """
@@ -26,8 +26,6 @@ BlockEvents
 ClientEvents
     atlasSpriteRegistry
     blockEntityRendererRegistry
-    blockEntityTick
-    drops
     entityRendererRegistry
     generateAssets
     lang
@@ -38,10 +36,7 @@ ClientEvents
     painterUpdated
     paintScreen
     particleProviderRegistry
-    randomTick
     rightDebugInfo
-    startedFalling
-    stoppedFalling
     tick
 
 EntityEvents

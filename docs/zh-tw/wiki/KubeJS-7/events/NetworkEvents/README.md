@@ -1,5 +1,6 @@
 ---
 title: NetworkEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>

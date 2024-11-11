@@ -1,5 +1,6 @@
 ---
 title: ClientEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>

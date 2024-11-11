@@ -1,5 +1,6 @@
 ---
 title: EntityEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>

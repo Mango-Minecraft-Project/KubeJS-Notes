@@ -1,5 +1,6 @@
 ---
 title: BlockEvents
-index: false
+timeline: false
 ---
 
+<Catalog/>
