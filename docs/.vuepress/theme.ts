@@ -67,12 +67,7 @@ export default hopeTheme({
   plugins: {
     blog: {
       filter: ({ frontmatter, filePathRelative, lang, path }: Page) =>
-        !!(
-          frontmatter.article ??
-          (!!filePathRelative &&
-            !frontmatter.home &&
-            frontmatter.index !== false)
-        ),
+        !!(frontmatter.article ?? (!!filePathRelative && !frontmatter.home && frontmatter.index !== false)),
       excerptLength: 100,
     },
 
@@ -80,9 +75,36 @@ export default hopeTheme({
       switchLocale: "modal",
       defaultBehavior: "homepage",
       defaultLocale: "/en-us/",
-      config: {
-        "/": "/en-us/",
-      },
+      config: (app) =>
+        Object.fromEntries(
+          app.pages.map(({ path }) => {
+            const newUrlPrefix = "https://mango-kubejs.pages.dev";
+            let [lang, ...rest] = path.replace("/", "").split("/");
+            let subpath = rest.join("/");
+            console.log(`${lang} | ${subpath}`);
+            if (subpath == "links.html") {
+              return [path, `${newUrlPrefix}/${lang}/tutorials/links.html`];
+            }
+            if (subpath == "tips-and-tricks/Script-Preprocess-Arguments.html") {
+              return [path, `${newUrlPrefix}/${lang}/tips/headers.html`];
+            }
+            if (subpath == "tips-and-tricks/Useful-Mods.html") {
+              return [path, `${newUrlPrefix}/${lang}/tips/useful-mods.html`];
+            }
+            if (subpath == "tips-and-tricks/Beans.html") {
+              return [path, `${newUrlPrefix}/${lang}/tips/beans.html`];
+            }
+            if (subpath.startsWith("tips-and-tricks/")) {
+              return [path, `${newUrlPrefix}/${lang}/${subpath.replace("tips-and-tricks/", "tips/")}`];
+            }
+
+            // fallback
+            if (subpath == "") {
+              return [path, `${newUrlPrefix}/${lang}`];
+            }
+            return [path, `${newUrlPrefix}/${lang}/${subpath}`];
+          }),
+        ),
     },
 
     components: {
